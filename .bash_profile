@@ -33,6 +33,7 @@ export PATH=/usr/local/mysql/bin:$PATH
 
 # golang compiler path set
 export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
 
 # for cpp build script
 export PATH=$PATH:/Users/Naver/Desktop/changhoon/scripts/build/cpp
