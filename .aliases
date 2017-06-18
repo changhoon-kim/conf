@@ -8,9 +8,6 @@ fi
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
 
-# vim
-alias vi='vim -n'
-
 # ssh shortcut
 alias ncon1='ssh changhoonkim@ncon1.nhnsystem.com'
 alias dgw01='ssh changhoonkim@dgw01.nhnsystem.com'
@@ -26,3 +23,8 @@ alias la="ls -lha"
 alias lsd='ls -l | grep "^d"'
 
 #alias ls='ls -GFh'
+alias pg='ps -ef | grep -v "grep" | grep '
+alias lg='ls | grep '
+alias vim='vim -n'
+alias api-hello='curl "0:5252/internal/api/hello"'
+alias py='python'

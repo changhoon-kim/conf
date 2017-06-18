@@ -32,7 +32,7 @@ export PATH=$MAVEN_HOME/bin:$PATH
 export PATH=/usr/local/mysql/bin:$PATH
 
 # golang compiler path set
-export GOROOT=$HOME/GOROOT
+export GOROOT=$HOME/go
 
 # for cpp build script
 export PATH=$PATH:/Users/Naver/Desktop/changhoon/scripts/build/cpp
