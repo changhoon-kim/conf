@@ -21,8 +21,10 @@ export MYSQL_HOME=/home1/irteam/db/mysql_13306
 export PATH=$PATH:$MYSQL_HOME/bin
 
 # my script path
+# ~/.scripts 를 path 로 추가하고 .scripts 안에서 link 이용하는거 고려
 export SCRIPT_HOME=/home1/irteam/my_directory/daily-log/script
-export PATH=$PATH:$SCRIPT_HOME
+export CTAGS_SCRIPTS=/home1/irteam/my_directory/scripts/ctags
+export PATH=$PATH:$SCRIPT_HOME:$CTAGS_SCRIPTS
 
 #### WEBAPPS ENV ####
 export APP_HOME=/home1/irteam
