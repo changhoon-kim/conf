@@ -1,6 +1,7 @@
 #!/bin/bash
-ln -nfs ./.aliases ~/.aliases
-ln -nfs ./.bash_profile ~/.bash_profile # mac
-ln -nfs ./.bash_prompt ~/.bash_prompt
-ln -nfs ./.bashrc ~/.bashrc # ncloud
-ln -nfs ./.ctags ~/.ctags
+PWD=`pwd`
+ln -nfs $PWD/.aliases ~/.aliases
+ln -nfs $PWD/.bash_profile ~/.bash_profile # mac
+ln -nfs $PWD/.bash_prompt ~/.bash_prompt
+ln -nfs $PWD/.bashrc ~/.bashrc # ncloud
+ln -nfs $PWD/.ctags ~/.ctags
