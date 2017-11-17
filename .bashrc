@@ -40,6 +40,7 @@ alias vim='vim -n'
 alias api-hello='curl "0:5252/internal/api/hello"'
 alias py='python'
 alias virtualenv='/usr/local/bin/virtualenv'
+alias git='/usr/local/git/bin/git'
 
 # go path
 export GOROOT=/home1/irteam/apps/go
