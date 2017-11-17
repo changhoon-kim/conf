@@ -39,3 +39,14 @@ alias lg='ls | grep '
 alias vim='vim -n'
 alias api-hello='curl "0:5252/internal/api/hello"'
 alias py='python'
+alias virtualenv='/usr/local/bin/virtualenv'
+
+# go path
+export GOROOT=/home1/irteam/apps/go
+export PATH=$PATH:$GOROOT/bin
+
+# mosquitto lib
+#export PATH=$PATH:/home1/irteam/apps/mosquitto/lib
+
+# add /usr/local/bin
+export PATH=$PATH:/usr/local/bin

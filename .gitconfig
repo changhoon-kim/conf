@@ -9,3 +9,5 @@
 [user]
 	name = changhoon-kim
 	email = changhoon.kim@worksmobile.com
+[credential]
+	helper = store
