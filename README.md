@@ -41,6 +41,4 @@ step 3 : if not exist '/etc/bash_completion' install bash_completion
 $ sudo yum install bash-completion
 
 refer : https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
-
-** But git autocomplete working only old git version, 2.0.4 not working **
 ```
