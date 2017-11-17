@@ -28,7 +28,17 @@ refer : https://stackoverflow.com/questions/21820715/how-to-install-latest-versi
 
 ### git autocomplete ###
 ```
-$ sudo yum install git bash-completion
+step 1 : prepare git alias or git link
+$ echo "alias git='/usr/local/git/bin/git'" >> ~/.bashrc
+(or add the alias .bashrc(.aliases))
+(use git path above prefix)
+
+step 2 : create the file('/etc/bash_completion.d/git') by yum install git
+(not need this git file, we use only /etc/bash_completion.d/git)
+$ sudo yum install git
+
+step 3 : if not exist '/etc/bash_completion' install bash_completion
+$ sudo yum install bash-completion
 
 refer : https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion
 
