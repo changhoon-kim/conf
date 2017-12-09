@@ -1,15 +1,16 @@
 [alias]
         lg = log --color --graph --abbrev-commit\n           --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'
         br = branch
-	brd = br -d
-	brD = br -D
+        brd = branch -d
+        brD = branch -D
         co = checkout
         commit = commit -v
-	cm = commit -v
+        cm = commit -v
         st = status
-	rb = rebase -i
-	chp = cherry-pick
-	df = diff
+        rb = rebase -i
+        ch = cherry-pick
+        df = diff
+        rh = reset --hard
 [color]
 	ui = true
 [user]
