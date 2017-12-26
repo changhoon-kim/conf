@@ -11,6 +11,7 @@
         ch = cherry-pick
         df = diff
         rh = reset --hard
+        diff-this = diff shared/master HEAD
 [color]
 	ui = true
 [user]
