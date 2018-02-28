@@ -9,8 +9,9 @@ fi
 alias ls="command ls ${colorflag}"
 
 # ssh shortcut
-alias ncon1='ssh changhoonkim@ncon1.nhnsystem.com'
-alias dgw01='ssh changhoonkim@dgw01.nhnsystem.com'
+alias ncon='ssh changhoonkim@ncon1.nhnsystem.com'
+#alias dgw='ssh changhoonkim@dgw01.nhnsystem.com'
+alias dgw='sshpass -f ~/ssh-password ssh changhoonkim@dgw01.nhnsystem.com'
 alias ssh-ev="ssh -i /Users/Naver/.ssh/aws_private_key.pem ubuntu@52.79.93.87"
 
 # List all files colorized in long format

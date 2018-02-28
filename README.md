@@ -1,5 +1,13 @@
 include conf file with hidden properties
 
+### install sshpass ###
+```
+mac :
+$ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
+
+refer : https://gist.github.com/arunoda/7790979
+```
+
 ### git version update ###
 ```
 step 1 : Install Required Packages
