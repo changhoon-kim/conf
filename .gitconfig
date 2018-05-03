@@ -12,6 +12,7 @@
         df = diff
         rh = reset --hard
         diff-this = diff shared/master HEAD
+        rev = remote -v
 [color]
 	ui = true
 [user]
