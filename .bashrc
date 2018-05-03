@@ -54,3 +54,7 @@ export PATH=$PATH:/usr/local/bin
 
 # maven path
 export PATH=$PATH:/home1/irteam/apps/maven/bin
+
+# node path
+export PATH=$PATH:/home1/irteam/apps/node/bin
+
