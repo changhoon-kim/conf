@@ -1,0 +1,25 @@
+# mysql path
+export MYSQL_HOME=/home1/irteam/db/mysql_13306
+export PATH=$PATH:$MYSQL_HOME/bin
+
+# my script path
+# ~/.scripts 를 path 로 추가하고 .scripts 안에서 link 이용하는거 고려
+export SCRIPT_HOME=/home1/irteam/my_directory/daily-log/script
+export CTAGS_SCRIPTS=/home1/irteam/my_directory/scripts/ctags
+export PATH=$PATH:$SCRIPT_HOME:$CTAGS_SCRIPTS
+
+# go path
+export GOROOT=/home1/irteam/apps/go
+export PATH=$PATH:$GOROOT/bin
+
+# mosquitto lib path
+#export PATH=$PATH:/home1/irteam/apps/mosquitto/lib
+
+# add /usr/local/bin
+export PATH=$PATH:/usr/local/bin
+
+# maven path
+export PATH=$PATH:/home1/irteam/apps/maven/bin
+
+# node path
+export PATH=$PATH:/home1/irteam/apps/node/bin
