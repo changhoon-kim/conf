@@ -15,11 +15,11 @@ export PATH=$PATH:$GOROOT/bin
 # mosquitto lib path
 #export PATH=$PATH:/home1/irteam/apps/mosquitto/lib
 
-# add /usr/local/bin
-export PATH=$PATH:/usr/local/bin
-
 # maven path
-export PATH=$PATH:/home1/irteam/apps/maven/bin
+export PATH=/home1/irteam/apps/maven/bin:$PATH
 
 # node path
 export PATH=$PATH:/home1/irteam/apps/node/bin
+
+# add /usr/local/bin
+export PATH=$PATH:/usr/local/bin
