@@ -5,6 +5,14 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+# export LD_LIBRARY_PATH=/usr/nhnkrb5/lib:$LD_LIBRARY_PATH
+
+# Source user definitions
+# user_rc=`kinit </dev/null 2>&1 | head -1 | awk '{print ".bashrc_"$3}' | sed "s/@NAVER.COM://"`
+# if [ -e $user_rc ]; then
+#         . $user_rc
+# fi
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
