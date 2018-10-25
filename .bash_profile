@@ -22,6 +22,10 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done
 unset file
 
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 # java, maven path set
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home
 export PATH=$JAVA_HOME:$PATH
@@ -39,7 +43,13 @@ export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:/Users/Naver/Desktop/changhoon/scripts/build/cpp
 
 # for ctags-change script
-export PATH=$PATH:/Users/Naver/Desktop/changhoon/scripts/ctags
+export CTAGS_SCRIPTS=$HOME/Desktop/changhoon/scripts/ctags
+export PATH=$PATH:$CTAGS_SCRIPTS
+
+# for boost path
+export PATH=$PATH:/usr/local/Cellar/boost/1.60.0_2/include
+export PATH=$PATH:/usr/local/lib
+export PATH=$PATH:/usr/local/include
 
 # grep option
 export GREP_OPTION='--color=auto'
